@@ -4,6 +4,7 @@
 }
 
 body{
+    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto' sans-serif;
     padding: 0;
     margin: 0;
@@ -13,19 +14,29 @@ html{
     height: 100%;
 }
 
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: 157px;
+    margin-right: 158px;
+}
+
+.bg-red {
+    color: #EE4248;
+}
 
 /* HEADER */
 .header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 158px;
-    margin-right: 165px;
+    padding: 22px 0px;
 }
 
 .main-header{
     width: 1440px;
     height: 100px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-logo:hover{
@@ -82,3 +93,117 @@ html{
 .header-icons a:active{
     opacity: 0.6;
 }
+
+
+/* LEFT INFO */
+
+.top-section > div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.left-info {
+    float: left;
+    margin-bottom: 150px;
+}
+
+.info-left-header {
+    width: 545px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.info-left-paragraph {
+    width: 520px;
+    font-size: 20px;
+    color: #30444E;
+    font-weight: 400;
+    line-height: 28.94px;
+    margin-top: -24px;
+    margin-bottom: 24px;
+}
+
+.main-button{
+    width: 161px;
+    height: 53px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 12px 34px;
+    background-color: #EE4248;
+}
+
+.main-button:hover{
+    opacity: 0.8;
+}
+
+.main-button:active {
+    opacity: 0.6;
+}
+
+/* INFO RIGHT */
+.info-right{
+    float: right;
+    margin-top: 100px;
+}
+
+/* MIDDLE CONTENT */
+.middle-content {
+    width: 1519px;
+    height: 500px;
+    background-color: #f6f6f6;
+}
+
+.middle-content > div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-heading {
+    width: 454px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42.78px;
+    margin-left: 82px;
+}
+
+.right-paragraph {
+    width: 520px;
+    color: #30444E;
+    margin-left: 82px;
+}
+
+/* PRODUCT AND SERVICE */
+.bottom-heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+    margin-top: 116px;
+}
+
+.bottom-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-description-info {
+    color: #30444E;
+    line-height: 27px;
+    width: 319px;
+    padding-bottom: 15px;
+}
+
+.info {
+    width: 329px;
+}
+
